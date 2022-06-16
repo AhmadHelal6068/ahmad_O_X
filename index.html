@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="game">
+                <div class="title">X O<span> GAME</span></div>
+
+                <p id="result">
+                    <span>Player: X</span><span>Player: O</span>
+                </p>
+
+                <div class="square" id="item1" onclick="game(this.id)"></div>
+                <div class="square" id="item2" onclick="game(this.id)"></div>
+                <div class="square" id="item3" onclick="game(this.id)"></div>
+
+                <div class="square" id="item4" onclick="game(this.id)"></div>
+                <div class="square" id="item5" onclick="game(this.id)"></div>
+                <div class="square" id="item6" onclick="game(this.id)"></div>
+
+                <div class="square" id="item7" onclick="game(this.id)"></div>
+                <div class="square" id="item8" onclick="game(this.id)"></div>
+                <div class="square" id="item9" onclick="game(this.id)"></div>
+            </div>
+            <div class="btn">
+                <button type="button" id="edit" class="button" onclick="changeName()">Edit Player Name</button>
+                <button type="button" id="replay" class="button" onclick="replay()">Replay Game</button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container1">
+        <div class="box1">
+            <div class="box2">
+                <button class="add">+</button>
+                <button class="number">0</button>
+                <button class="remove">-</button>
+            </div>
+            <button class="result">Result</button>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="js/main.js"></script>
+    <script src="js/number.js"></script>
+</body>
+</html>

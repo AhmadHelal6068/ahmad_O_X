@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1200px;
+    width: 95%;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: #eee;
+}
+.box{
+    display: grid;
+    justify-content: center;
+    padding-top: 30px;
+    
+}
+.game{
+    width: 300px;
+    text-align: center;
+    font-family: system-ui;
+}
+.title{
+    font-size: 30px;
+    color: #333;
+    background-color: #fff;
+    padding: 10px 50px;
+    border-bottom: 1px solid #333;
+}
+.title span{
+    color: #498afb;
+}
+#result{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    margin-bottom: 20px;
+    color: #333;
+    padding: 0 5px;
+}
+.square{
+    width: 96px;
+    height: 97px;
+    line-height: 97px;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #333;
+    float: left;
+    margin: 2px;
+    font-size: 30px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    color: #333;
+}
+.square:hover{
+    background-color: #498afb;
+    cursor: pointer;
+    color: #fff;
+}
+.btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    margin-top: 10px;
+}
+.btn button{
+    border: none;
+    padding: 10px 25px;
+    color: #fff;
+    cursor: pointer;
+}
+.btn button:first-child{
+    background-color: #09c372;
+}
+.btn button:last-child{
+    background-color: #ff3860;
+}
+
+
+
+
+
+
+/* ------------- */
+.container1{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container1 .box1{
+    text-align: center;
+}
+.container1 .box1 .add{
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    border: 2px solid #333;
+    font-size: 20px;
+}
+.container1 .box1 .number{
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 10px;
+    border: 2px solid #333;
+    font-size: 30px;
+}
+.container1 .box1 .remove{
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    border: 2px solid #333;
+}
+.container1 .box1 .add:hover,
+.container1 .box1 .remove:hover{
+    background-color: #09c372;
+    color: #fff;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    border-color: #09c372;
+}
+.container1 .box1 .result{
+    background-color: #ff3860;
+    border: none;
+    color: #fff;
+    padding: 15px 50px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
